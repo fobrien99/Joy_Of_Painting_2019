@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Your page title here :)</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Devonshire|Shrikhand" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header>
+    <div>
+      <span class="logo"><a href="#">The Joy Of Painting</a></span>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Some other link</a>
+        <a href="#">Get In Touch</a>
+      </nav>
+    </div>
+    <div>
+      <span class="date">23th Never 2020</span>
+      <span class="member-login"></span>
+      <button class=" button button-default">Member Login</button>
+    </div>
+  </header>
+    <section class="section-1">
+          <div class="container">
+              <div>
+                  <h1>Learn About The Joy Of Painting</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum nulla accusantium, veritatis voluptatem soluta ullam a repudiandae, cumque, natus maiores quod laborum error quisquam itaque officia molestiae. Saepe, reprehenderit odit.</p>
+                  <p><button class="button button-primary">Start Learning Today</button></p>
+              </div>      
+              <div>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/lLWEXRAnQd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+          </div> 
+    </section>
+    <section class="section-2">
+      <div class="container">
+          <h2>You Can Become A Better Painter</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ab, totam delectus, quisquam beatae quo, quos exercitationem quibusdam architecto deleniti esse deserunt. Quisquam adipisci autem, nesciunt alias nobis cum quam.  
+          </p>
+          <p class="signature">Bob Ross</p>
+      </div>
+    </section>
+    <section class="section-3"> 
+      <div class="container">
+          <h2>What You Will Learn</h2>
+          <div class="learning-outcomes">
+              <div><img src="img/pic1.jpg" alt="info">
+                  <h3>Brush Tecnhique</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab illum, maxime ratione ex eveniet?</p>
+              </div>
+              <div><img src="img/pic2.jpg" alt="info">
+                  <h3>Colour Selection</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab illum, maxime ratione ex eveniet?</p>
+              </div>
+              <div><img src="img/pic3.jpg" alt="info">
+                  <h3>Gear Selection</h3>
+                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab illum, maxime ratione ex eveniet?</p>
+              </div>
+              <div><img src="img/pic4.jpg" alt="info">
+                <h3>Realistic Painting</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab illum, maxime ratione ex eveniet?</p>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="section-4">
+        <div class="container">
+           <h2>Bob's Promise To You</h2>
+           <img src="img/bobross.jpeg" alt="bobross">
+          <p>ipsum dolor, sit amet consectetur adipisicing elit. Vitae vel vero, necessitatibus corrupti repellat soluta suscipit aliquam voluptatum sint sed expedita, ratione culpa ullam facilis consequatur laboriosam nostrum assumenda harum.</p>
+      </div>
+</body>
+<footer>
+    <div class="container">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium rem ducimus ad tempore quisquam laboriosam provident perferendis doloremque, unde dolores porro aliquid facere perspiciatis dolore ab aliquam atque assumenda molestias!</p>
+    </div>
+</footer>
+
+</html>
+
+<style>
+
+  header {
+    display: flex;
+    flex-direction: row;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    color: #ccc;
+    padding: 0.3em 3em;
+
+  }
+  header div {
+    display: flex;
+    flex-direction: row;
+    align-items:  center;
+  }
+
+  .logo {
+    font-size: 2em;
+    font-family: 'Shrikhand', cursive;
+    color: #ccc;
+  }
+
+  .logo a {color: #ccc; text-decoration: none;transition: 0.6s;}
+  .logo a:hover {color: #fff; text-decoration: none;transition: 0.6s;}
+
+  nav {
+    margin: 0 3em;
+    font-size: 1em;
+  }
+ 
+  nav a {padding: 0 1.5em; color: #ccc; text-decoration: none;}
+  nav a:hover {color: #fff; text-decoration: underline;}
+
+  .button-default {
+    background: silver;
+    transition: 0.6s;
+    top: 0.3em;
+    position: relative;
+  }
+
+  .button-default:hover {
+    background: white;
+    color: black;
+    transition: 0.6s;
+  }
+
+  .date {
+    margin-right: 2em;
+  }
+
+  .section-1, .section-2, .section-3, .section-4 {
+    min-height: 20em;
+  }
+
+  .section-1 {
+    background: url("img/dark_wood.png");
+    color: #eee;
+  }
+
+  .section-1 .container {
+    padding: 2em 0 3em 0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-1 .container div:nth-child(1) {
+    padding: 1em;
+  }
+
+  .container {
+    width: 70%;
+    max-width: 1000px;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+
+  .section-2 {
+    padding-top: 2em;
+    text-align: center;
+    background: silver;
+  }
+
+  .signature {
+    font-family: 'Devonshire', cursive;
+    font-size: 4em;
+  }
+
+  .learning-outcomes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+
+  .learning-outcomes img {
+    width: 100%;
+    height: auto;
+  }
+
+ .section-3 h3 {
+   font-size: 1.4em;
+ }
+
+ .section-4 {
+   background: url("img/ricepaper.png");
+   border-top: 1px solid silver;
+   text-align: center; 
+   padding-top: 2em;
+ }
+
+ .section-4 img {
+    -webkit-box-shadow: 6px 6px 13px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 13px -1px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 13px -1px rgba(0,0,0,0.75);
+    margin-bottom: 1.5em;
+ }
+
+ footer {
+   background: black;
+   color: #eee;
+   text-align: center;
+   padding: 4em;
+ }
+
+</style>
